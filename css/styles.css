@@ -126,3 +126,10 @@ footer{
 .right-alignment{
     text-align: right;
 }
+
+li.empty{
+    width: 90px;
+    border-top: 1px solid black;
+    top: -5px;
+    position: relative;
+}
