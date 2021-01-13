@@ -75,17 +75,40 @@ body ul{
 
 figcaption{
     font-size: 10px;
+    margin-bottom: 10px;
 }
 
 .intro-img{
     box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
     margin-top: 30px;
-    margin-bottom: 10px;
 }
+
+
 
 .skills-list{
     text-align: center;
     font-size: 50px;
     line-height: 150%;
     margin-bottom: 130px;
+}
+
+h2{
+    font-size: 30px;
+    line-height: 130%;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+.project{
+    margin: 70px 0;
+}
+
+.blue{
+    background: #DBEBF4;    
+}
+
+.project .button{
+    margin-top: 10px;
 }
