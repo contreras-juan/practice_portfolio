@@ -3,7 +3,10 @@
     <head>
         <meta>
         <title>Portfolio</title>
-        <link></link>
+        <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Inknut+Antiqua:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -19,25 +22,35 @@
         </nav>
 
         <header>
-            <h1>hi, i’m <br> jane doe</h1>
-            <ul>
-                <li>Graphic & UX designer</li>
-                <li>Graduated from Artistic University in Amsterdam</li>
-                <li>8+ years of experience</li>
-                <li>Collaborating with many successful startups and companies</li>
-                <li>Speaking at various conferences for designers</li>
-            </ul>
+            <div class="container">
+                <div class = "row">
 
-            <a href="">add me on Linkedin</a>
-        </header>
-
-        <figure>
-            <img src="img/jane.jpg" alt="Jane Doe"/>
-            <figcaption>
-                Photo by Sam Manns on Unsplash
-            </figcaption>
-        </figure>
-
+                    <!-- Left column -->
+                    <div class="col-sm">           
+                    <h1>hi, i’m <br> jane doe</h1>
+                    <ul class="skills-list">
+                        <li>Graphic & UX designer</li>
+                        <li>Graduated from Artistic University in Amsterdam</li>
+                        <li>8+ years of experience</li>
+                        <li>Collaborating with many successful startups and companies</li>
+                        <li>Speaking at various conferences for designers</li>
+                    </ul>
+    
+                    <a href="">add me on Linkedin</a>
+                        </div>
+                
+                    <!-- Right column -->
+                <div class="col-sm">
+                <figure>
+                    <img src="img/jane.jpg" alt="Jane Doe"/>
+                    <figcaption>
+                        Photo by Sam Manns on Unsplash
+                    </figcaption>
+                </figure>
+                </div>
+            </div>
+        </div>
+    </header>
         
         <section>
            <ul>
@@ -57,6 +70,7 @@
                     The Honest Company on Unsplash
                 </figcaption>
             </figure>
+                
 
             <h2>
                 branding strategy <br> for female cosmetics
