@@ -112,3 +112,17 @@ h1, h2{
 .project .button{
     margin-top: 10px;
 }
+
+footer h2{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+footer{
+    text-align: center;
+    margin: 100px
+}
+
+.right-alignment{
+    text-align: right;
+}
